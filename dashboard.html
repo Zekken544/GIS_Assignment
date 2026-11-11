@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="mn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Дэлгэрмөрөн голын тохойн өөрчлөлт</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eff4f1;color:#162e2f;font:16px/1.55 system-ui,Arial,sans-serif}
+main{width:min(1160px,100% - 36px);margin:auto;padding:28px 0 70px}
+header{background:#163b38;color:white;border-radius:16px;padding:28px clamp(20px,5vw,50px);margin-bottom:34px}
+h1,h2{line-height:1.18;margin:.3em 0 .55em}h1{font-size:clamp(28px,5vw,48px)}h2{font-size:25px}
+.kicker{color:#c6e9df;letter-spacing:.08em;font-weight:650;font-size:.84em}
+.note{padding:14px 18px;border-left:4px solid #a25931;background:#fff5ec;border-radius:3px 8px 8px 3px;margin:16px 0 22px}
+section{margin:34px 0}figure{margin:0;border:1px solid #ccded8;border-radius:9px;background:white;overflow:hidden}
+figure img{width:100%;display:block;aspect-ratio:4/3;object-fit:contain;background:#243632}
+figcaption{padding:10px 14px 14px}figcaption p{margin:3px 0 0;font-size:.9rem}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:13px}
+.chart,.table{margin-top:14px;background:#fff;border:1px solid #ccded8;border-radius:9px;overflow:auto}.chart img{width:100%;min-width:670px;display:block}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid #dce8e1}
+th{background:#e0efe7}tbody tr:nth-child(even){background:#f4f8f5}
+a{color:#126357}footer{margin-top:30px;color:#3c5750;font-size:.88rem}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="kicker">БИЕ ДААЛТ 1 · ГАЗАРЗҮЙН МЭДЭЭЛЛИЙН СИСТЕМ</div>
+<h1>Дэлгэрмөрөн голын тохойн өөрчлөлт</h1>
+<p>Хөвсгөл аймаг, Мөрөн сум · 2011–2026</p>
+</header>
+<section aria-labelledby="photos">
+<h2 id="photos">Олон хугацааны зургийн харьцуулалт</h2>
+<p>Эрэг ба хашааны завсрыг харьцуулахад хэрэгтэй кадруудыг он цагийн дарааллаар харуулав.</p>
+<div class="gallery">{{gallery}}</div>
+</section>
+<section aria-labelledby="profile">
+<h2 id="profile">Хөндлөн огтлолын хэмжилт</h2>
+{{summary}}
+<p>Зургуудыг тогтвортой харагдах объектуудаар {{reference}} оны лавлах кадрт ижил төстэй хувиргалтаар тааруулж, ижил хөндлөн шугам дээр харьцуулсан. Өргөнийг тухайн үеийн хашааны X байрлалаас эрэг талын харагдах ус газрын заагийн X байрлалыг хасаж тооцов.</p>
+<div class="note">Бүх утга лавлах зургийн пикселээр өгөгдсөн. Усны түвшин, зураг тааруулалт, ирмэгийн харагдах байдал тодорхойгүй хэсгүүдэд нөлөөлнө. 2026 онд өмнөх гол талын хашааны тохирох мөр харагдаагүй тул өргөн тооцоогүй. Хашааны байрлал өөрчлөгдөхөд зурвасын өргөн мөн өөрчлөгдөнө.</div>
+<figure><img src="reference.svg" alt="Хөндлөн огтлолуудыг тэмдэглэсэн лавлах зураг"><figcaption>Цэнхэр ногоон цэгээр эрэг талын ус газрын зааг, улбар шар цэгээр хашааг тэмдэглэв.</figcaption></figure>
+<div class="chart"><img src="profiles.svg" alt="Огноо бүрийн эрэг, хашааны X байрлал болон өргөн"></div>
+<p><a href="measurements.csv">Хэмжилтийн CSV хүснэгт</a></p>
+<div class="table"><table><thead><tr>{{head}}</tr></thead><tbody>{{rows}}</tbody></table></div>
+<p>Зураас (—) нь харагдах байдал эсвэл байрлалын нөхцөлөөс шалтгаалан хэмжилт ашиглаагүйг заана.</p>
+</section>
+<footer>Эх зураг: хэрэглэгчийн нийлүүлсэн Google хиймэл дагуулын дэлгэцийн зургууд. Зургийн он ба сарыг хэрэглэгчийн тэмдэглэгээгээр ашиглав.</footer>
+</main>
+</body>
+</html>
+
+

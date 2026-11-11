@@ -1,0 +1,316 @@
+{
+  "reference": "2022",
+  "units": "reference_px",
+  "transects": [
+    {
+      "id": "T01",
+      "y": 180
+    },
+    {
+      "id": "T02",
+      "y": 220
+    },
+    {
+      "id": "T03",
+      "y": 255
+    }
+  ],
+  "observations": [
+    {
+      "date": "2011",
+      "filename": "2011.png",
+      "quality": "Хашаа ба ус-газрын зааг харагдана. Хөрвүүлэлтэд гурван тулгуур цэг ашиглав.",
+      "registration": {
+        "source_landmarks": [
+          [
+            735,
+            118
+          ],
+          [
+            751,
+            257
+          ],
+          [
+            596,
+            302
+          ]
+        ],
+        "a": 1.0528825,
+        "b": 0.0036132,
+        "tx": 7.11494,
+        "ty": -9.77472,
+        "max_fitted_residual_px": 2.76
+      },
+      "points": [
+        {
+          "id": "T01",
+          "bank_x": 443,
+          "fence_x": 518
+        },
+        {
+          "id": "T02",
+          "bank_x": 464,
+          "fence_x": 528
+        },
+        {
+          "id": "T03",
+          "bank_x": 479,
+          "fence_x": 535
+        }
+      ],
+      "source_filename": "codex-clipboard-b481dac8-34bb-418e-b61b-c9f73fa953b0.png"
+    },
+    {
+      "date": "2020",
+      "filename": "2020.png",
+      "quality": "Гурван огтлол дээр ус-газрын зааг болон хашааны мөрийг ялгаж тэмдэглэв.",
+      "registration": {
+        "source_landmarks": [
+          [
+            777,
+            119
+          ],
+          [
+            796,
+            264
+          ],
+          [
+            632,
+            313
+          ],
+          [
+            612,
+            166
+          ]
+        ],
+        "a": 1.0055325,
+        "b": 0.0085191,
+        "tx": -0.56041,
+        "ty": -9.19183,
+        "max_fitted_residual_px": 2.3
+      },
+      "points": [
+        {
+          "id": "T01",
+          "bank_x": 469,
+          "fence_x": 509
+        },
+        {
+          "id": "T02",
+          "bank_x": 487,
+          "fence_x": 520
+        },
+        {
+          "id": "T03",
+          "bank_x": 501,
+          "fence_x": 526
+        }
+      ],
+      "source_filename": "codex-clipboard-ef524286-b5ed-4a45-8f08-3af42047eb91.png"
+    },
+    {
+      "date": "2021-07",
+      "filename": "2021-07.png",
+      "quality": "T03 дээр хашааны мөр бүдэг, тасалдсан тул өргөн тооцоогүй.",
+      "registration": {
+        "source_landmarks": [
+          [
+            783,
+            119
+          ],
+          [
+            803,
+            262
+          ],
+          [
+            637,
+            310
+          ],
+          [
+            617,
+            162
+          ]
+        ],
+        "a": 1.0042136,
+        "b": 0.0004638,
+        "tx": -7.14277,
+        "ty": -0.97789,
+        "max_fitted_residual_px": 1.9
+      },
+      "points": [
+        {
+          "id": "T01",
+          "bank_x": 473,
+          "fence_x": 505
+        },
+        {
+          "id": "T02",
+          "bank_x": 494,
+          "fence_x": 515
+        },
+        {
+          "id": "T03",
+          "bank_x": 515,
+          "fence_x": null
+        }
+      ],
+      "source_filename": "codex-clipboard-4cacf4ad-cfee-411d-96df-373433a5233a.png"
+    },
+    {
+      "date": "2021-09",
+      "filename": "2021-09.png",
+      "quality": "Булингартай усны үеийн зураг. Тогтвортой харьцуулах ус-газрын заагийг итгэлтэй ялгах боломжгүй тул дүрслэлийн лавлагаа болгон ашиглав.",
+      "registration": {
+        "source_landmarks": [
+          [
+            778,
+            115
+          ],
+          [
+            801,
+            256
+          ],
+          [
+            632,
+            310
+          ],
+          [
+            612,
+            163
+          ]
+        ],
+        "a": 0.9975129,
+        "b": 0.0214878,
+        "tx": 6.28922,
+        "ty": -12.1402,
+        "max_fitted_residual_px": 1.97
+      },
+      "points": [
+        {
+          "id": "T01",
+          "bank_x": null,
+          "fence_x": 507
+        },
+        {
+          "id": "T02",
+          "bank_x": null,
+          "fence_x": 515
+        },
+        {
+          "id": "T03",
+          "bank_x": null,
+          "fence_x": 526
+        }
+      ],
+      "source_filename": "codex-clipboard-01ae424e-d11f-4521-b609-d3ece7d54e6b.png"
+    },
+    {
+      "date": "2022",
+      "filename": "2022.png",
+      "quality": "Тулгуур зураг. T03 дээр үлдсэн зурвас хамгийн нарийн харагдана.",
+      "registration": {
+        "source_landmarks": [
+          [
+            781,
+            119
+          ],
+          [
+            798,
+            261
+          ],
+          [
+            632,
+            311
+          ],
+          [
+            612,
+            163
+          ]
+        ],
+        "a": 1.0,
+        "b": -0.0,
+        "tx": 0.0,
+        "ty": 0.0,
+        "max_fitted_residual_px": 0.0
+      },
+      "points": [
+        {
+          "id": "T01",
+          "bank_x": 479,
+          "fence_x": 505
+        },
+        {
+          "id": "T02",
+          "bank_x": 500,
+          "fence_x": 515
+        },
+        {
+          "id": "T03",
+          "bank_x": 516,
+          "fence_x": 526
+        }
+      ],
+      "source_filename": "codex-clipboard-32d449d1-2331-4675-bf07-36e3d46b5ba3.png"
+    },
+    {
+      "date": "2026",
+      "filename": "2026.png",
+      "quality": "Гурван огтлолд өмнөх гол талын хашааны тохирох мөр танигдсангүй. Хашааг голоос холдуулсан тухай мэдээллийг тухайн газрыг мэддэг хүний ажиглалтаар тэмдэглэв.",
+      "registration": {
+        "source_landmarks": [
+          [
+            784,
+            123
+          ],
+          [
+            799,
+            265
+          ],
+          [
+            637,
+            312
+          ],
+          [
+            618,
+            163
+          ]
+        ],
+        "a": 1.013454,
+        "b": -0.012887,
+        "tx": -16.07601,
+        "ty": 3.99063,
+        "max_fitted_residual_px": 1.81
+      },
+      "points": [
+        {
+          "id": "T01",
+          "bank_x": 475,
+          "fence_x": null
+        },
+        {
+          "id": "T02",
+          "bank_x": 496,
+          "fence_x": null
+        },
+        {
+          "id": "T03",
+          "bank_x": 514,
+          "fence_x": null
+        }
+      ],
+      "source_filename": "codex-clipboard-ae054cfe-5d68-433a-a4f7-580dd1c70bed.png"
+    }
+  ],
+  "method": {
+    "x_direction": "screen right, toward land at the sampled cross-sections",
+    "bank_proxy": "visible land-water edge, not a surveyed top of bank",
+    "registration": "2D similarity to the unmodified 2022 screenshot, x'=a*x-b*y+tx, y'=b*x+a*y+ty",
+    "landmarks": [
+      "upper inland fence intersection",
+      "lower inland fence intersection",
+      "persistent circular garden feature",
+      "light roof center (unavailable in 2011)"
+    ],
+    "null": "not reliably comparable or not visible"
+  }
+}
